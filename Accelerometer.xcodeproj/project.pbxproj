@@ -13,6 +13,10 @@
 		B6F09A2F28BAB7480089D469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F09A2D28BAB7480089D469 /* Main.storyboard */; };
 		B6F09A3128BAB7490089D469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F09A3028BAB7490089D469 /* Assets.xcassets */; };
 		B6F09A3428BAB7490089D469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F09A3228BAB7490089D469 /* LaunchScreen.storyboard */; };
+		B6F09A4228BAB7E50089D469 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F09A4028BAB7E40089D469 /* awa.png */; };
+		B6F09A4328BAB7E50089D469 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F09A4128BAB7E50089D469 /* suiheiki.png */; };
+		B6F09A4528BAB9AE0089D469 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F09A4428BAB9AE0089D469 /* GameViewController.swift */; };
+		B6F09A4728BAB9C30089D469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F09A4628BAB9C30089D469 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B6F09A3028BAB7490089D469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F09A3328BAB7490089D469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F09A3528BAB7490089D469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F09A4028BAB7E40089D469 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		B6F09A4128BAB7E50089D469 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		B6F09A4428BAB9AE0089D469 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B6F09A4628BAB9C30089D469 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		B6F09A2628BAB7480089D469 /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				B6F09A4028BAB7E40089D469 /* awa.png */,
+				B6F09A4128BAB7E50089D469 /* suiheiki.png */,
 				B6F09A2728BAB7480089D469 /* AppDelegate.swift */,
 				B6F09A2928BAB7480089D469 /* SceneDelegate.swift */,
 				B6F09A2B28BAB7480089D469 /* ViewController.swift */,
@@ -63,6 +73,8 @@
 				B6F09A3028BAB7490089D469 /* Assets.xcassets */,
 				B6F09A3228BAB7490089D469 /* LaunchScreen.storyboard */,
 				B6F09A3528BAB7490089D469 /* Info.plist */,
+				B6F09A4428BAB9AE0089D469 /* GameViewController.swift */,
+				B6F09A4628BAB9C30089D469 /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -127,7 +139,9 @@
 			files = (
 				B6F09A3428BAB7490089D469 /* LaunchScreen.storyboard in Resources */,
 				B6F09A3128BAB7490089D469 /* Assets.xcassets in Resources */,
+				B6F09A4328BAB7E50089D469 /* suiheiki.png in Resources */,
 				B6F09A2F28BAB7480089D469 /* Main.storyboard in Resources */,
+				B6F09A4228BAB7E50089D469 /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F09A4728BAB9C30089D469 /* ResultViewController.swift in Sources */,
+				B6F09A4528BAB9AE0089D469 /* GameViewController.swift in Sources */,
 				B6F09A2C28BAB7480089D469 /* ViewController.swift in Sources */,
 				B6F09A2828BAB7480089D469 /* AppDelegate.swift in Sources */,
 				B6F09A2A28BAB7480089D469 /* SceneDelegate.swift in Sources */,
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T2J4KACU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T2J4KACU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
